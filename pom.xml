@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.xiao.zookeeper</groupId>
+    <artifactId>root</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>zk-manager-web</module>
+        <module>zk-manager-core</module>
+        <module>zk-manager-client</module>
+        <module>manager-common</module>
+    </modules>
+    <dependencyManagement>
+
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
